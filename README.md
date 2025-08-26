@@ -17,7 +17,7 @@ Este projeto é uma variação do sistema bancário, agora incluindo decoradores
 1. Tenha o python 3 instalado.
 2. clone este repositório:
 
-        git clone https://github.com/jpbroering/desafio_banco_python_POO.git
+        git clone https://github.com/jpbroering/Desafio_Decorador_Iterador_Gerador.git
 
 3. Acesse a pasta do projeto.
 4. Execute o script (Windows): 
