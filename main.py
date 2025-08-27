@@ -206,10 +206,9 @@ def log_transacao(func):
     def envelope(*args, **kwargs):
         data = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
         func(*args, **kwargs)
-        print(f"\n{func.__name__} - {data}")
+        print(f"\n{func.__name__.upper().replace("_", " ")}: {data}")
     
     return envelope
-
 
 def menu():
     menu = """\n
